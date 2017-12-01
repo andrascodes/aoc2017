@@ -1,0 +1,14 @@
+{
+  "name": "aoc2017",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andrewszucs/aoc2017.git",
+  "author": "Andrew Szucs <andrew0szucs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon"
+  },
+  "dependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
