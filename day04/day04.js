@@ -62,10 +62,10 @@ const part1 = input => {
 
 const part2 = input => {
 
-  const sortedInput = input
-                        .map(word => Array.from(word))
-                        .map(word => word.sort())
-                        .map(word => word.join())
+  const sortedInput = input.map( word => Array.from(word).sort().join() )
+                        // .map(word => Array.from(word))
+                        // .map(word => word.sort())
+                        // .map(word => word.join())
 
   const uniqueInput = Array.from(new Set(sortedInput))
 
