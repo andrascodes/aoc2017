@@ -29,7 +29,6 @@ const part2 = (input) => {
     currentInd += move
     steps++
   }
-  // console.log(input)
   return steps
 }
 
